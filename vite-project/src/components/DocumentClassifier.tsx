@@ -553,7 +553,7 @@ const DocumentClassifier = () => {
   const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
   // Using test.js backend (NO /api prefix)
-  const API_BASE_URL = 'http://localhost:5000';
+  const API_BASE_URL = 'https://cloud-document-analytics.onrender.com';
 
   useEffect(() => {
     fetchData();
