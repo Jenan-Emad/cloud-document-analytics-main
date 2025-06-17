@@ -1,6 +1,6 @@
 // config/api.ts - API configuration for test.js backend
 export const API_CONFIG = {
-  BASE_URL: 'https://cloud-document-analytics.onrender.com',
+  BASE_URL: 'http://localhost:5000',
 };
 
 // API URLs for test.js backend (file storage)
