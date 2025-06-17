@@ -148,7 +148,7 @@
 import { Document, SearchResult, ClassificationTree, Statistics } from '../types';
 
 // Backend API base URL
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://cloud-document-analytics.onrender.com';
 
 // Helper function for API calls
 const apiCall = async (endpoint: string, options?: RequestInit) => {
