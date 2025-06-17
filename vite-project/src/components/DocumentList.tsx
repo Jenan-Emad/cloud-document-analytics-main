@@ -481,7 +481,7 @@ const DocumentList = () => {
   const [sortOrder, setSortOrder] = useState('desc');
 
   // Using test.js backend routes (NO /api prefix)
-  const API_BASE_URL = 'http://localhost:5000';
+  const API_BASE_URL = 'https://cloud-document-analytics.onrender.com';
 
   useEffect(() => {
     fetchDocuments();
