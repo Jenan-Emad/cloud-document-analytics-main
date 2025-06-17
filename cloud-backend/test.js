@@ -744,7 +744,7 @@ app.post('/classifications/auto-classify', async (req, res) => {
     console.log('🤖 Starting auto-classification...');
     
     // Initialize classifications first
-    await axios.get('http://localhost:5000/init-classifications');
+    await axios.get('https://cloud-document-analytics.onrender.com/init-classifications');
     
     const documents = await fileStorage.findDocuments();
     const classifications = await fileStorage.findClassifications();
